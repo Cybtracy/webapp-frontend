@@ -164,20 +164,32 @@ textarea {
   min-height: 200px;
 }
 
-.selected {
-  width: 50px;
-  height: 23px;
-  padding-right: 10px;
-  border-right: 1px solid black;
-  text-align: right;
+.selected{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 23px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border: none;
+    border-right: 1px solid black;
+    border-radius: 0 0;
+    text-align: right;
 }
 
 .selected:hover {
   cursor: pointer;
 }
 
-#picture {
-  padding: 17px 20px;
+.selected input{
+    border: none;
+    width: 100%;
+    height: max-content;
+    padding: 0;
+}
+
+#picture{
+    padding: 17px 20px;
 }
 
 .grid h3 {
